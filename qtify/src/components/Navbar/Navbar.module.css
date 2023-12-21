@@ -1,0 +1,7 @@
+.navbar {
+    background-color: var(--color-green);
+    display: flex;
+    justify-content: space-between;
+    height: 74px;
+    align-items: center;
+}
