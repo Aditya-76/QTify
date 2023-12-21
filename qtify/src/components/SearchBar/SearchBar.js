@@ -10,7 +10,7 @@ const SearchBar = () => {
     return (
         <form className={styles.searchBar} onSubmit={e => handleSearch(e)}>
             <input 
-                placeholder='Search a album of your choice'
+                placeholder='Search a song of your choice'
                 value={searchVal}
                 onChange={(e) => setSearchVal(e.target.value)}
             />
