@@ -5,11 +5,11 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <div className={styles.navbar}>
+        <nav className={styles.navbar}>
             <Logo/>
             <SearchBar/>
             <Button>Feedback Button</Button>
-        </div>
+        </nav>
     )
 }
 
