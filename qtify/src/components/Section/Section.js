@@ -1,15 +1,15 @@
 import styles from './Section.module.css';
 import Card from '../Card/Card'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { CircularProgress } from '@mui/material';
 
 const Section = ({title, data, type}) => {
-    const [carouselToggle, setCarouselToggle] = useState(true);
+    const [carouselToggle, setCarouselToggle] = useState(false);
 
     const handleToggle = () => {
         setCarouselToggle((prevState) => !prevState);
     }
-    
+
     return (
         <div>
             <div className={styles.header}>

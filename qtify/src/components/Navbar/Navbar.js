@@ -7,9 +7,9 @@ import styles from './Navbar.module.css';
 const Navbar = ({searchData}) => {
     return (
         <nav className={styles.navbar}>
-            <a href="#">
+            <Link href="/">
                 <Logo/>
-            </a>
+            </Link>
             <SearchBar searchData={searchData} placeholder={'Search a song of your choice'}/>
             <Button>Give Feedback</Button>
         </nav>
