@@ -8,16 +8,13 @@ const Card = ({data, type}) => {
                 const {likes, image, title, follows, slug, songs} = data;
 
                 return (
-                    <Tooltip title={`${songs.length}`} placement='top' arrow>
+                    <Tooltip title={`${songs.length} Songs`} placement='top' arrow>
                         <a href={`album/${slug}`}>
                             <div className={styles.wrapper}>
                                 <div className={styles.card}>
                                     <img src={image} alt="song" loading='lazy'/>
                                     <div className={styles.banner}>
                                         <Chip label={`${follows} Follows`} size='small' className={styles.chip}/>
-                                        <div className={styles.pill}>
-                                            <p>{likes} Likes</p>
-                                        </div>
                                     </div>
                                 </div>
                                 <div className={styles.titleWrapper}>

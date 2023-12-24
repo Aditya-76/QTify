@@ -10,6 +10,13 @@
     overflow: hidden;
 }
 
+.card img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
 .banner {
     position: absolute;
     bottom: 0;
@@ -37,10 +44,13 @@
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    font-size: 14px;
+    color: white;
 }
 
 .chip {
-    background-color: var(--color-black);
-    color: white;
-    
+    background-color: var(--color-black) !important;
+    color: white !important;
+    font-size: 10px;
+    font-weight: 400;
 }
