@@ -19,3 +19,7 @@
     cursor: pointer;
     color: var(--color-green);
 }
+
+.filterWrapper {
+    margin-top: 15px;
+}
